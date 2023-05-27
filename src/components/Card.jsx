@@ -1,11 +1,16 @@
 import React from 'react'
 import img from '../download.jpg';
+//import Identicon from "react-hooks-identicons";
 
 export default function Card(props) {
 
+    //const result = Math.random().toString(36).substring(2,7);
 
     //const imgSrc = "https://source.unsplash.com/random/200×200/?internet";
+    // <img src={img} alt="web" className='' />
+
     const cardData = props.cardData;
+    // <div><Identicon className='rounded-full' size='182' string= {result} /></div>
 
     return (
         <div>
