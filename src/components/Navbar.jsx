@@ -54,13 +54,13 @@ export default function Navbar({ fixed }) {
   };
 
   return (
-    <>
+    <div className="mb-0">
       <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-violet-500 mb-3">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
               className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
-              href="#pablo"
+              href="/"
             >
               DeVerse
             </a>
@@ -79,12 +79,12 @@ export default function Navbar({ fixed }) {
             }
             id="example-navbar-danger"
           >
-            <ul className="md:flex space-x-4 mx-auto py-2">
+            <ul className="md:flex space-x-8 mx-auto py-2">
 
-              <li><a href="/" className="text-white mx-2 px-4 py-2 rounded-lg hover:bg-purple-400">Home</a></li>
-              <li><a href="/blog" className="text-white mx-2 px-4 py-2 rounded-lg hover:bg-purple-400">Publish</a></li>
-              <li><a href="/explore" className="text-white mx-2 px-4 py-2 rounded-lg hover:bg-purple-400">Explore</a></li>
-              <li><a href="/Profile" className="text-white mx-2 px-4 py-2 rounded-lg hover:bg-purple-400">Profile</a></li>
+              <li><a href="/" className="text-white rounded-lg mx-8 px-8 py-2 hover:bg-purple-400">Home</a></li>
+              <li><a href="/blog" className="text-white rounded-lg px-8 py-2 hover:bg-purple-400">Publish</a></li>
+              <li><a href="/explore" className="text-white rounded-lg px-8 py-2 hover:bg-purple-400">Explore</a></li>
+              <li><a href="/Profile" className="text-white rounded-lg px-8 py-2 hover:bg-purple-400">Profile</a></li>
               {/* <li>
                 <a href="/" className="">
                   <span> Connect Wallet </span>
@@ -110,6 +110,6 @@ export default function Navbar({ fixed }) {
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 }

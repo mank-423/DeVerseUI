@@ -1,7 +1,7 @@
 import React from 'react'
 import Input from './Input'
 // import Card from './Card'
-
+// https://source.unsplash.com/random/300×300/?burger
 export default function BlogSection() {
   return (
     <div>

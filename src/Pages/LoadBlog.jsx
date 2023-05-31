@@ -18,6 +18,7 @@ export default function LoadBlog() {
         <center>
         {/*  justify-center items-center */}
           <div className='flex flex-wrap mt-10'>
+            
             {content.length !== 0 
                 ?
                 content.map((item, index) => (
@@ -25,8 +26,11 @@ export default function LoadBlog() {
                 ))
               
               :
-              " "
+              (
+                <h1 className='m-auto'>  No content published still yet</h1>
+              )
             }
+            
           </div>
         </center> 
             
